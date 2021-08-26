@@ -5,29 +5,38 @@
 </div>
 
 ## 📰 Description
+
 This is my Portfolio website built with REACT
 
 ## ▶ Demo
+
 No need for a demo, just visit <a href="https://parides.github.io/portfolio/" target="_blank">my website</a>
 
-## 🛠 Initialization & Setup 
+## 🛠 Initialization & Setup
 
 #### Clone the repository
 
 ```sh
 git clone https://github.com/Parides/portfolio.git
 ```
+
 #### Install Node.js
+
 [Official Node.js Website](https://nodejs.org/en/)
 Ensure you have installed using
+
 ```sh
 npm -V
 ```
+
 #### Install the correct version of Node
+
 ```sh
 nvm install
 ```
+
 #### Start the development server
+
 ```sh
 npm start
 ```
@@ -35,9 +44,11 @@ npm start
 ## 🚀 Building and Running
 
 #### Generate Production Build
+
 ```sh
 npm run build
 ```
+
 <!---
 ## 🎨 Color Reference
 TO BE ADDED LATER
@@ -56,5 +67,5 @@ TO BE ADDED LATER
 
 👤 **Andreas Paridis**
 
-* Github: [@Parides](https://github.com/Parides)
-* LinkedIn: [@parides](https://linkedin.com/in/parides)
+- Github: [@Parides](https://github.com/Parides)
+- LinkedIn: [@parides](https://linkedin.com/in/parides)
