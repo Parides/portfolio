@@ -110,3 +110,5 @@ src/components/*
 #pages
 src/pages/*
 !src/pages/Home.js
+
+.vscode
