@@ -17,7 +17,7 @@ import CourierPrimeRegular from '../assets/fonts/CourierPrime/CourierPrime-Regul
 const Typography = createGlobalStyle`
 
   /* Courrier Prime */ 
-  @font-face {
+  /* @font-face {
     font-family: 'CourierPrime Regular';
     src: url(${CourierPrimeRegular});
     font-style: normal;
@@ -26,26 +26,24 @@ const Typography = createGlobalStyle`
     font-family: 'CourierPrime Bold';
     src: url(${CourierPrimeBold});
     font-style: normal;
-  }
+  } */
 
   /* ROBOTO */ 
-  @font-face {
+  /* @font-face {
     font-family: 'RobotoMono Regular';
     src: url(${RobotoMonoRegular});
     font-style: normal;
   }
-  /* ROBOTO */ 
   @font-face {
   font-family: 'RobotoMono Bold';
   src: url(${RobotoMonoBold});
   font-style: normal;
   }
-  /* ROBOTO */ 
   @font-face {
     font-family: 'RobotoMono SemiBold';
     src: url(${RobotoMonoSemiBold});
     font-style: normal;
-  }
+  } */
 
   /* SFMONO */
   @font-face {
@@ -53,20 +51,19 @@ const Typography = createGlobalStyle`
     src: url(${SFMonoMonoRegular});
     font-style: normal;
   }
-    /* SFMono */ 
     @font-face {
     font-family: 'SFMonoMono Bold';
     src: url(${SFMonoMonoBold});
     font-style: normal;
   }
-    /* SFMono */ 
+
     @font-face {
     font-family: 'SFMonoMono SemiBold';
     src: url(${SFMonoMonoSemiBold});
     font-style: normal;
   }
   /* Montserrat */ 
-  @font-face {
+  /* @font-face {
     font-family: 'Montserrat SemiBold';
     src: url(${MontserratSemiBold});
     font-style: normal;
@@ -75,7 +72,7 @@ const Typography = createGlobalStyle`
     font-family: 'Montserrat Bold';
     src: url(${MontserratBold});
     font-style: normal;
-  }
+  } */
 
   html{
     font-family: 'SFMonoMono Regular';

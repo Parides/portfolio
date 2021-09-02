@@ -169,7 +169,7 @@ export default function Footer() {
       </div> */}
       <div className="copyright">
         <div className="social-icons">
-          <span>
+          {/* <span>
             <a
               href="http://facebook.com/webcifar"
               target="_blank"
@@ -177,10 +177,10 @@ export default function Footer() {
             >
               <img src={instagram} alt="icon" />
             </a>
-          </span>
+          </span> */}
           <span>
             <a
-              href="http://facebook.com/webcifar"
+              href="http://github.com/parides"
               target="_blank"
               rel="noreferrer"
             >
@@ -189,7 +189,7 @@ export default function Footer() {
           </span>
           <span>
             <a
-              href="http://facebook.com/webcifar"
+              href="http://linkedin.com/in/parides"
               target="_blank"
               rel="noreferrer"
             >
@@ -198,7 +198,7 @@ export default function Footer() {
           </span>
           <span>
             <a
-              href="http://facebook.com/webcifar"
+              href="mailto:andreasparides@hotmail.com"
               target="_blank"
               rel="noreferrer"
             >

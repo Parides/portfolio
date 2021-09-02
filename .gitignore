@@ -77,3 +77,36 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
+# testimonials
+/src/assets/data/testimonials.js
+
+# fonts
+src/assets/fonts/*
+!src/assets/fonts/SFMono
+
+# images
+src/assets/images/about-sec-img.png
+src/assets/images/cavinimg.jpg
+src/assets/images/cointracker.jpg
+src/assets/images/greenctg.jpg
+src/assets/images/hero.png
+src/assets/images/utracker.jpg
+src/assets/images/social-media-arrow.svg
+src/assets/images/scroll-down-arrow.svg
+src/assets/images/map.png
+
+# components
+src/components/*
+!/src/components/AboutSection.js
+!/src/components/ExperienceSection.js
+!/src/components/Footer.js
+!/src/components/HeroSection.js
+!/src/components/NavMenu.js
+!/src/components/ProjectItem.js
+!/src/components/PText.js
+!/src/components/SectionTitle.js
+!/src/components/SkillsSection.js
+
+#pages
+src/pages/*
+!src/pages/Home.js
