@@ -211,7 +211,7 @@ export default function Footer() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/parides"
+              href="https://github.com/parides/portfolio"
             >
               Designed and Developed by <br />
               Andreas Paridis
