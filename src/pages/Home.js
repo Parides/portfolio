@@ -14,22 +14,22 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div>
-      <FadeIn transitionDuration="1000">
+      <FadeIn transitionDuration="700">
         <HeroSection />
       </FadeIn>
-      <FadeIn transitionDuration="1000">
+      <FadeIn transitionDuration="700">
         <AboutSection />
       </FadeIn>
-      <FadeIn transitionDuration="1000">
+      <FadeIn transitionDuration="700">
         <SkillsSection />
       </FadeIn>
-      <FadeIn transitionDuration="1000">
+      <FadeIn transitionDuration="700">
         <ExperienceSection />
       </FadeIn>
-      <FadeIn transitionDuration="1000">
+      <FadeIn transitionDuration="700">
         <ProjectsSection />
       </FadeIn>
-      <FadeIn transitionDuration="1000">
+      <FadeIn transitionDuration="700">
         <Footer />
       </FadeIn>
     </div>
