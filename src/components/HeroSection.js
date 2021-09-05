@@ -207,7 +207,7 @@ export default function HeroSection() {
             <span className="hero__first__line">Hello, I'm</span>
             <span className="hero__name">Andreas Paridis</span>
             <span className="hero__name__subtitle">
-              I code stuff on the computer
+              I use coding to bring ideas to life
             </span>
             <span className="hero__info">
               I am a computer science graduate that loves to built websites,

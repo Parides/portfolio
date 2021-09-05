@@ -68,7 +68,7 @@ const Typography = createGlobalStyle`
   }
 
   /* SFMONO */
-  @font-face {
+  /* @font-face {
     font-family: 'SFMonoMono Regular';
     src: url(${SFMonoMonoRegular});
     font-style: normal;
@@ -83,7 +83,7 @@ const Typography = createGlobalStyle`
     font-family: 'SFMonoMono SemiBold';
     src: url(${SFMonoMonoSemiBold});
     font-style: normal;
-  }
+  } */
   /* Montserrat */ 
   /* @font-face {
     font-family: 'Montserrat SemiBold';
@@ -97,15 +97,15 @@ const Typography = createGlobalStyle`
   } */
 
   html{
-    font-family: 'SFMonoMono Regular';
+    font-family: 'Manrope SemiBold';
     color: var(--white);
   }
   *{
-    font-family: 'SFMonoMono Regular';
+    font-family: 'Manrope SemiBold';
     color: var(--white);
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'SFMonoMono SemiBold'
+    font-family: 'Manrope Bold'
   }
 
 `;

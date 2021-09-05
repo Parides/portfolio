@@ -99,7 +99,7 @@ const NavStyles = styled.nav`
     }
     .navItems {
       --top: 1rem;
-      transition: 1s ease transform;
+      transition: 0.6s ease transform;
       background-color: var(--steel-blue);
       padding: 2rem;
       width: 100%;
