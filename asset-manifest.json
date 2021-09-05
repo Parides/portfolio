@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.eb13835c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.eb13835c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.db441d6b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.db441d6b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.763eb2d9.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.763eb2d9.js.map",
     "static/css/2.b1b9bc85.chunk.css": "/portfolio/static/css/2.b1b9bc85.chunk.css",
-    "static/js/2.6fcc658d.chunk.js": "/portfolio/static/js/2.6fcc658d.chunk.js",
-    "static/js/2.6fcc658d.chunk.js.map": "/portfolio/static/js/2.6fcc658d.chunk.js.map",
+    "static/js/2.a9688545.chunk.js": "/portfolio/static/js/2.a9688545.chunk.js",
+    "static/js/2.a9688545.chunk.js.map": "/portfolio/static/js/2.a9688545.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.b1b9bc85.chunk.css.map": "/portfolio/static/css/2.b1b9bc85.chunk.css.map",
-    "static/js/2.6fcc658d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6fcc658d.chunk.js.LICENSE.txt",
+    "static/js/2.a9688545.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a9688545.chunk.js.LICENSE.txt",
+    "static/media/AndreasParidisResume.b0105f4e.pdf": "/portfolio/static/media/AndreasParidisResume.b0105f4e.pdf",
     "static/media/CourierPrime-Bold.c71ba360.ttf": "/portfolio/static/media/CourierPrime-Bold.c71ba360.ttf",
     "static/media/CourierPrime-Regular.68d89efc.ttf": "/portfolio/static/media/CourierPrime-Regular.68d89efc.ttf",
     "static/media/Manrope-Medium.4a88d55f.ttf": "/portfolio/static/media/Manrope-Medium.4a88d55f.ttf",
@@ -30,22 +31,18 @@
     "static/media/email.3a39a751.svg": "/portfolio/static/media/email.3a39a751.svg",
     "static/media/github.05f37c28.svg": "/portfolio/static/media/github.05f37c28.svg",
     "static/media/greenctg.e51b3bbd.jpg": "/portfolio/static/media/greenctg.e51b3bbd.jpg",
-    "static/media/hero.67448392.png": "/portfolio/static/media/hero.67448392.png",
     "static/media/instagram.55b5899f.svg": "/portfolio/static/media/instagram.55b5899f.svg",
     "static/media/linkedin.5af5aedf.svg": "/portfolio/static/media/linkedin.5af5aedf.svg",
     "static/media/logo.66e2bc9e.png": "/portfolio/static/media/logo.66e2bc9e.png",
     "static/media/mazegame.daf0478d.png": "/portfolio/static/media/mazegame.daf0478d.png",
     "static/media/projectImg.771236e1.png": "/portfolio/static/media/projectImg.771236e1.png",
-    "static/media/resume.32f49329.pdf": "/portfolio/static/media/resume.32f49329.pdf",
-    "static/media/scroll-down-arrow.8ad25c53.svg": "/portfolio/static/media/scroll-down-arrow.8ad25c53.svg",
-    "static/media/social-media-arrow.ecc0133c.svg": "/portfolio/static/media/social-media-arrow.ecc0133c.svg",
     "static/media/utracker.be1fe64a.jpg": "/portfolio/static/media/utracker.be1fe64a.jpg",
     "static/media/vba.43537052.png": "/portfolio/static/media/vba.43537052.png"
   },
   "entrypoints": [
     "static/js/runtime-main.763eb2d9.js",
     "static/css/2.b1b9bc85.chunk.css",
-    "static/js/2.6fcc658d.chunk.js",
-    "static/js/main.eb13835c.chunk.js"
+    "static/js/2.a9688545.chunk.js",
+    "static/js/main.db441d6b.chunk.js"
   ]
 }
