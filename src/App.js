@@ -16,7 +16,7 @@ export default function App() {
   return (
     <>
       <Router>
-        <FadeIn transitionDuration="2000">
+        <FadeIn transitionDuration="1000">
           <NavMenu />
         </FadeIn>
         <ScrollToTop />

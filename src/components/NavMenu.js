@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import { NavLink, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import { MdClose, MdMenu } from 'react-icons/md';
-import Button from './Button';
-import HeroSection from './HeroSection';
-import resumepdf from '../assets/static/resume.pdf';
+import resumepdf from '../assets/static/AndreasParidisResume.pdf';
 import logo from '../assets/images/logo.png';
 
 const NavStyles = styled.nav`

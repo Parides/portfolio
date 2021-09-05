@@ -1,11 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from './PText';
-import Button from './Button';
 import AboutImg from '../assets/images/about-page-img.png';
-import AboutInfoItem from './AboutInfoItem';
-import ContactBanner from './ContactBanner';
-import resumepdf from '../assets/static/resume.pdf';
+import resumepdf from '../assets/static/AndreasParidisResume.pdf';
 
 const AboutPageStyles = styled.div`
   .container {
@@ -57,7 +54,6 @@ const AboutPageStyles = styled.div`
       display: inline-block;
       color: white;
       transition: 0.5s opacity;
-
       &:hover {
         opacity: 50%;
       }

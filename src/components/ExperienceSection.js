@@ -1,10 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import PText from './PText';
-import Button from './Button';
-import AboutImg from '../assets/images/about-page-img.png';
-import AboutInfoItem from './AboutInfoItem';
-import ContactBanner from './ContactBanner';
 
 const ExperienceStyles = styled.div`
   .container {
