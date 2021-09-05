@@ -47,7 +47,7 @@ const ExperienceStyles = styled.div`
   }
   .right {
     img {
-      border: 2px solid var(--gray-1);
+      border: 2px solid var(--black);
     }
   }
   .about__info__items {
@@ -67,6 +67,7 @@ const ExperienceStyles = styled.div`
   .about__info__heading {
     font-size: 3.6rem;
     text-transform: uppercase;
+    color: var(--steel-blue);
   }
   .about__info__heading__sub {
     font-size: 2.5rem;
@@ -83,7 +84,7 @@ const ExperienceStyles = styled.div`
     list-style-image: '>';
     padding-inline-start: 1rem;
     content: '>';
-    background: var(--indigo-dye);
+    background: var(--steel-blue);
     border-radius: 2rem;
     padding-inline: 2rem;
     margin-inline-end: 2rem;
@@ -92,7 +93,7 @@ const ExperienceStyles = styled.div`
   .about__info__position {
     font-size: 4rem;
     text-transform: uppercase;
-    color: var(--cg-blue);
+    color: var(--steel-blue);
     margin-top: 2rem;
   }
   .about__info_description {
@@ -128,7 +129,7 @@ const ExperienceStyles = styled.div`
       list-style-image: '>';
       padding-inline-start: 1rem;
       content: '>';
-      background: var(--indigo-dye);
+      background: var(--steel-blue);
       border-radius: 2rem;
       padding-inline: 2rem;
       margin-inline-end: 2rem;

@@ -32,19 +32,18 @@ const HeroStyles = styled.div`
       display: inline-block;
       width: 100%;
     }
-    .hero__first__line {
-      color: var(--cg-blue);
-    }
+    /* .hero__first__line {
+      color: var(--black);
+    } */
     .hero__name {
-      font-family: 'SFMonoMono Bold';
+      font-family: 'Manrope Bold';
       font-size: 7rem;
-      color: var(--white);
+      color: var(--steel-blue);
       margin-top: 1rem;
     }
     .hero__name__subtitle {
-      font-family: 'SFMonoMono SemiBold';
+      font-family: 'Manrope SemiBold';
       font-size: 4rem;
-      color: var(-white);
     }
   }
   .hero__img {
@@ -52,12 +51,12 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
+    border: 2px solid var(--white);
   }
   .hero__info {
     margin-top: 2rem;
     margin-bottom: 4rem;
-    font-family: 'SFMonoMono Bold';
+    font-family: 'Manrope Bold';
   }
   .hero__social,
   .hero__scrollDown {
@@ -137,11 +136,11 @@ const HeroStyles = styled.div`
     font-size: 2rem;
     background-color: transparent;
     padding: 0.7em 2em;
-    border: 2px solid var(--cg-blue);
+    border: 2px solid var(--steel-blue);
     border-radius: 8px;
     display: inline-block;
     transition: 0.5s opacity;
-    color: white;
+    /* color: white; */
     &:hover {
       opacity: 50%;
     }

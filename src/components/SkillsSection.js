@@ -40,6 +40,7 @@ const SkillSectionStyles = styled.div`
     font-size: 3.6rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
+    color: var(--steel-blue);
   }
   .about__info {
     margin-bottom: 4rem;
@@ -49,7 +50,7 @@ const SkillSectionStyles = styled.div`
   }
   .right {
     img {
-      border: 2px solid var(--gray-1);
+      border: 2px solid var(--black);
       max-width: 400px;
     }
   }
@@ -80,7 +81,7 @@ const SkillSectionStyles = styled.div`
   @media only screen and (max-width: 1768px) {
     .container {
       min-height: 750px;
-      padding: 5rem 0 5rem 0;
+      padding: 5rem 0 5rem 1rem;
       scroll-margin: -2rem;
     }
     .top-section {

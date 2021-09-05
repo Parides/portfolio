@@ -4,13 +4,17 @@ import styled from 'styled-components';
 import ProjectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
+  transition: 0.5s opacity;
+  &:hover {
+    opacity: 50%;
+  }
   .projectItem__img {
     width: 100%;
     height: 400px;
     border-radius: 12px;
     overflow: hidden;
     display: inline-block;
-    border: 3px solid var(--cg-blue);
+    border: 3px solid var(--steel-blue);
     img {
       height: 100%;
     }
@@ -18,7 +22,7 @@ const ProjectItemStyles = styled.div`
   .projectItem__info {
     /* border-style: inset ; */
     margin-top: 1rem;
-    border-color: var(--indigo-dye);
+    border-color: var(--steel-blue);
     padding: 1rem;
     border-radius: 12px;
     min-height: 175px;
@@ -28,7 +32,7 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'SFMonoMono Regular';
+    font-family: 'Manrope Regular';
     margin-top: 1rem;
   }
   @media only screen and (max-width: 768px) {

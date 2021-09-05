@@ -8,6 +8,10 @@ import SFMonoMonoRegular from '../assets/fonts/SFMono/SFMono-Regular.ttf';
 import SFMonoMonoBold from '../assets/fonts/SFMono/SFMono-Medium.ttf';
 import SFMonoMonoSemiBold from '../assets/fonts/SFMono/SFMono-SemiBold.ttf';
 
+import ManropeRegular from '../assets/fonts/Manrope/Manrope-Regular.ttf';
+import ManropeBold from '../assets/fonts/Manrope/Manrope-Medium.ttf';
+import ManropeSemiBold from '../assets/fonts/Manrope/Manrope-SemiBold.ttf';
+
 import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
 import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 
@@ -45,6 +49,24 @@ const Typography = createGlobalStyle`
     font-style: normal;
   } */
 
+  /* MANROPE */
+  @font-face {
+    font-family: 'Manrope Regular';
+    src: url(${ManropeRegular});
+    font-style: normal;
+  }
+    @font-face {
+    font-family: 'Manrope Bold';
+    src: url(${ManropeBold});
+    font-style: normal;
+  }
+
+    @font-face {
+    font-family: 'Manrope SemiBold';
+    src: url(${ManropeSemiBold});
+    font-style: normal;
+  }
+
   /* SFMONO */
   @font-face {
     font-family: 'SFMonoMono Regular';
@@ -76,11 +98,11 @@ const Typography = createGlobalStyle`
 
   html{
     font-family: 'SFMonoMono Regular';
-    color: var(--gray-1);
+    color: var(--white);
   }
   *{
     font-family: 'SFMonoMono Regular';
-    color: var(--gray-1);
+    color: var(--white);
   }
   h1,h2,h3,h4,h5,h6{
     font-family: 'SFMonoMono SemiBold'

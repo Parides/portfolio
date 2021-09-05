@@ -14,7 +14,7 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--oxford-blue);
+  background: var(--jet);
   opacity: 90%;
   // border-bottom: 2px solid var(--aquamarine)
   ul {
@@ -29,15 +29,14 @@ const NavStyles = styled.nav`
     }
     a {
       display: inline-block;
-      font-family: 'SFMonoMono SemiBold';
+      font-family: 'Manrope SemiBold';
       border-radius: 8px;
       padding: 1rem 2rem;
       font-size: 2rem;
-      color: var(--gray-1);
       outline: none;
-      transition: 0.5s ease color;
+      transition: 0.5s ease opacity;
       &:hover {
-        color: var(--white);
+        opacity: 50%;
       }
     }
     .logo {
@@ -45,14 +44,14 @@ const NavStyles = styled.nav`
       align-items: center;
       justify-content: center;
       img {
-        width: 100px;
+        width: 75px;
       }
     }
     button {
       font-size: 2rem;
       background-color: transparent;
       padding: 0.7em 2em;
-      border: 2px solid var(--cg-blue);
+      border: 2px solid var(--steel-blue);
       border-radius: 8px;
       display: inline-block;
       transition: 0.5s opacity;
@@ -85,7 +84,6 @@ const NavStyles = styled.nav`
   @media only screen and (max-width: 768px) {
     opacity: 100%;
     padding: 0;
-    background-color: white;
     z-index: 100;
     ul {
       margin: 0 auto;
@@ -105,7 +103,7 @@ const NavStyles = styled.nav`
     .navItems {
       --top: 1rem;
       transition: 1s ease transform;
-      background-color: var(--indigo-dye);
+      background-color: var(--steel-blue);
       padding: 2rem;
       width: 100%;
       height: 2000px;
@@ -128,6 +126,9 @@ const NavStyles = styled.nav`
       li {
         display: block;
         margin-bottom: 1rem;
+      }
+      button {
+        border: 2px solid var(--white);
       }
     }
   }

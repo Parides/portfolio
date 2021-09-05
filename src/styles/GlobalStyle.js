@@ -8,25 +8,32 @@ const GlobalStyles = createGlobalStyle`
   }
   :root{
     --dark-bg: #262626;
-
+/* 
     --oxford-blue: #0A1128;
     --royal-blue-dark: #001F54;
     --indigo-dye: #034078;
-    --cg-blue: #1282A2;
+    --cg-blue: #1282A2; */
+
+    --oxford-blue: #023047;
+    --royal-blue-dark: #126782;
+    --indigo-dye: #126782;
+    --cg-blue: #219EBC;
 
     --aquamarine: #5DFDCB;
     --testcolor: 'rgba(52, 52, 52, 0.8)';
     
+    --jet: #293132;
+    --steel-blue: #3a86ff;
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
     --gray-2: #363636;
-    --white : white;
+    --white : #F3F8F2;
     --black: black;
   }
   html{
     font-size: 10px;
-    font-family: 'SFMonoMono Regular';
-    background-color: var(--oxford-blue);
+    font-family: 'Manrope Regular';
+    background-color: var(--jet);
     scroll-behavior: smooth;
   }
   ul,li{

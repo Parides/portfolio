@@ -83,6 +83,7 @@ yarn-error.log
 # fonts
 src/assets/fonts/*
 !src/assets/fonts/SFMono
+!src/assets/fonts/Manrope
 
 # images
 src/assets/images/about-sec-img.png
@@ -106,6 +107,7 @@ src/components/*
 !/src/components/PText.js
 !/src/components/SectionTitle.js
 !/src/components/SkillsSection.js
+!/src/components/ProjectsSection.js
 
 #pages
 src/pages/*

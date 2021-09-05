@@ -40,6 +40,7 @@ const AboutPageStyles = styled.div`
     text-transform: uppercase;
     font-size: 3.6rem;
     margin-bottom: 1rem;
+    color: var(--steel-blue);
   }
   .about__info {
     margin-bottom: 4rem;
@@ -51,11 +52,12 @@ const AboutPageStyles = styled.div`
       font-size: 2rem;
       background-color: transparent;
       padding: 0.7em 2em;
-      border: 2px solid var(--cg-blue);
+      border: 2px solid var(--steel-blue);
       border-radius: 8px;
       display: inline-block;
-      transition: 0.5s opacity;
       color: white;
+      transition: 0.5s opacity;
+
       &:hover {
         opacity: 50%;
       }
@@ -66,7 +68,7 @@ const AboutPageStyles = styled.div`
   }
   .right {
     img {
-      border: 2px solid var(--gray-1);
+      border: 2px solid var(--steel-blue);
       max-width: 400px;
     }
     flex: 1;
