@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.0c7354a3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0c7354a3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.eb13835c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.eb13835c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.763eb2d9.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.763eb2d9.js.map",
     "static/css/2.b1b9bc85.chunk.css": "/portfolio/static/css/2.b1b9bc85.chunk.css",
@@ -12,6 +12,9 @@
     "static/js/2.6fcc658d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6fcc658d.chunk.js.LICENSE.txt",
     "static/media/CourierPrime-Bold.c71ba360.ttf": "/portfolio/static/media/CourierPrime-Bold.c71ba360.ttf",
     "static/media/CourierPrime-Regular.68d89efc.ttf": "/portfolio/static/media/CourierPrime-Regular.68d89efc.ttf",
+    "static/media/Manrope-Medium.4a88d55f.ttf": "/portfolio/static/media/Manrope-Medium.4a88d55f.ttf",
+    "static/media/Manrope-Regular.82b079af.ttf": "/portfolio/static/media/Manrope-Regular.82b079af.ttf",
+    "static/media/Manrope-SemiBold.26ad6bf1.ttf": "/portfolio/static/media/Manrope-SemiBold.26ad6bf1.ttf",
     "static/media/Montserrat-Bold.079ca05d.ttf": "/portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/portfolio/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/RobotoMono-Bold.1d29748c.ttf": "/portfolio/static/media/RobotoMono-Bold.1d29748c.ttf",
@@ -24,12 +27,12 @@
     "static/media/cavinimg.77adeaa3.jpg": "/portfolio/static/media/cavinimg.77adeaa3.jpg",
     "static/media/cointracker.8da9e0cd.jpg": "/portfolio/static/media/cointracker.8da9e0cd.jpg",
     "static/media/efit.d97323cc.png": "/portfolio/static/media/efit.d97323cc.png",
-    "static/media/email.af90e6d5.svg": "/portfolio/static/media/email.af90e6d5.svg",
-    "static/media/github.c3bb02d5.svg": "/portfolio/static/media/github.c3bb02d5.svg",
+    "static/media/email.3a39a751.svg": "/portfolio/static/media/email.3a39a751.svg",
+    "static/media/github.05f37c28.svg": "/portfolio/static/media/github.05f37c28.svg",
     "static/media/greenctg.e51b3bbd.jpg": "/portfolio/static/media/greenctg.e51b3bbd.jpg",
     "static/media/hero.67448392.png": "/portfolio/static/media/hero.67448392.png",
-    "static/media/instagram.391e9deb.svg": "/portfolio/static/media/instagram.391e9deb.svg",
-    "static/media/linkedin.7123c50e.svg": "/portfolio/static/media/linkedin.7123c50e.svg",
+    "static/media/instagram.55b5899f.svg": "/portfolio/static/media/instagram.55b5899f.svg",
+    "static/media/linkedin.5af5aedf.svg": "/portfolio/static/media/linkedin.5af5aedf.svg",
     "static/media/logo.66e2bc9e.png": "/portfolio/static/media/logo.66e2bc9e.png",
     "static/media/mazegame.daf0478d.png": "/portfolio/static/media/mazegame.daf0478d.png",
     "static/media/projectImg.771236e1.png": "/portfolio/static/media/projectImg.771236e1.png",
@@ -43,6 +46,6 @@
     "static/js/runtime-main.763eb2d9.js",
     "static/css/2.b1b9bc85.chunk.css",
     "static/js/2.6fcc658d.chunk.js",
-    "static/js/main.0c7354a3.chunk.js"
+    "static/js/main.eb13835c.chunk.js"
   ]
 }
