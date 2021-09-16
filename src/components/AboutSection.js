@@ -144,16 +144,17 @@ export default function About() {
               <div className="about__info">
                 <PText>
                   My name is Andreas Paridis, and I love using coding to bring
-                  ideas to life. As a young teenager I was obsessed with games,
-                  and was always fascinated with how simple lines of code could
-                  make an idea into reality. In 2018 I set out to find how the
-                  in and outs of how this process works at the University Of
-                  Reading as a computer scientist.
+                  ideas to life. As a teenager I was obsessed with games, and
+                  was always fascinated with how any abstract idea can turn into
+                  reality just by using lines of code. In 2018 I set out to find
+                  how the ins and outs of how this process works by Undertaking
+                  a Bacherlor of Science in Computer Science at the University
+                  Of Reading.
                   <br />
                   <br />
                   Fast Forward to today, I am an ambitious Computer Sience
-                  graduate, interested in expanding my software engineering and
-                  development knowledge.
+                  graduate, interested in expanding my software development, web
+                  development and sofware engineering skills.
                 </PText>
                 <a href={resumepdf} target="__blank">
                   <button type="button">Resume</button>

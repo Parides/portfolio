@@ -68,6 +68,11 @@ const ExperienceStyles = styled.div`
     font-size: 2.5rem;
     text-transform: uppercase;
     margin-top: 1.5rem;
+    transition: 0.5s ease opacity;
+    :hover {
+      opacity: 20%;
+      text-decoration: underline;
+    }
   }
   li {
     font-size: 1.8rem;
@@ -75,11 +80,15 @@ const ExperienceStyles = styled.div`
     margin-top: 2.5rem;
     line-height: 4rem;
     font-family: 'Manrope Regular';
+    transition: 0.5s ease opacity;
+    :hover {
+      opacity: 20%;
+    }
   }
   li::before {
     list-style-image: '>';
     padding-inline-start: 1rem;
-    content: '>';
+    content: ' ';
     background: var(--steel-blue);
     border-radius: 2rem;
     padding-inline: 2rem;
@@ -161,13 +170,16 @@ export default function ExperienceSection() {
               </h1>
               <ul>
                 <li>
-                  Contributed towards developing an estate listing website using
-                  the Laravel framework, HTML, CSS, and jQuery
+                  Contributed towards accelerating the development of an online
+                  estate listing website.
                 </li>
-                <li>Maintained Back-End, using MariaDB and Amazon AWS S3</li>
                 <li>
-                  Tested, maintained, and recommend software improvements to
-                  ensure strong functionality and optimization
+                  Administered the database system for over fifty thousand
+                  listings.
+                </li>
+                <li>
+                  Successfully migrated the database system over to a new
+                  Framework.
                 </li>
                 {/* <li>
                   <span>PHP</span>
@@ -190,16 +202,20 @@ export default function ExperienceSection() {
               </h1>
               <ul>
                 <li>
-                  Contributed towards engineering a data aggregation engine for
-                  online listings of estates
+                  Collaborated with the Senior Engineer to overhaul and
+                  re-engineer a data aggregation engine for online estate
+                  listings.
                 </li>
                 <li>
-                  Developed and optimized the engine, using PHP and maintained
-                  the back-end databases using MariaDB.
+                  Integrated essential functionality of the existing engine to
+                  the re-designed.
                 </li>
                 <li>
-                  Executed testing scripts to ensure the quality of the engine
-                  and handled client requests
+                  Implemented the design and developed the aggregation engine.
+                </li>
+                <li>
+                  Executed tests and recommended improvements, to ensure
+                  functionality and optimization.
                 </li>
               </ul>
             </div>
