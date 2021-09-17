@@ -47,6 +47,8 @@ const ExperienceStyles = styled.div`
   }
   .about__info__items {
     margin-top: 5rem;
+    max-height: 860px;
+    overflow-y: scroll;
   }
 
   .about__info__item {
@@ -105,7 +107,7 @@ const ExperienceStyles = styled.div`
     margin-top: 4rem;
     font-size: 3rem;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1768px) {
     .container {
       min-height: 750px;
       padding: 10rem 0 5rem 0;
@@ -124,20 +126,14 @@ const ExperienceStyles = styled.div`
     .about__info__heading {
       font-size: 2.8rem;
     }
+    .about__info__items {
+      max-height: 600px;
+    }
     li {
       font-size: 1.4rem;
       /* text-transform: uppercase; */
       margin-top: 1rem;
       line-height: 3rem;
-    }
-    li::before {
-      list-style-image: '>';
-      padding-inline-start: 1rem;
-      content: '>';
-      background: var(--steel-blue);
-      border-radius: 2rem;
-      padding-inline: 2rem;
-      margin-inline-end: 2rem;
     }
 
     .about__info__position {

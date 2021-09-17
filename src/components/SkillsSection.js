@@ -89,6 +89,8 @@ const SkillSectionStyles = styled.div`
       flex-wrap: wrap;
       align-self: flex-start;
       gap: 0rem;
+      max-height: 700px;
+      overflow-y: scroll;
     }
     .skills {
       float: left;

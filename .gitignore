@@ -112,4 +112,6 @@ src/components/*
 src/pages/*
 !src/pages/Home.js
 
+#data
+src/assets/data/jobs.js
 .vscode
