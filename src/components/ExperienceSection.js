@@ -4,9 +4,10 @@ import styled from 'styled-components';
 const ExperienceStyles = styled.div`
   .container {
     padding: 30rem 0 30rem 0;
-    scroll-margin: -20rem;
+    /* scroll-margin: -20rem; */
     align-items: center;
-    min-height: 1000px;
+    /* height: 100vh;
+    min-height: 1000px; */
     justify-content: center;
   }
 
@@ -47,7 +48,7 @@ const ExperienceStyles = styled.div`
   }
   .about__info__items {
     margin-top: 5rem;
-    max-height: 860px;
+    max-height: 500px;
     overflow-y: scroll;
   }
 

@@ -1,19 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import PText from './PText';
-import Button from './Button';
-import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from './AboutInfoItem';
-import ContactBanner from './ContactBanner';
 
 const SkillSectionStyles = styled.div`
   .container {
     padding: 30rem 0 30rem 0;
-    scroll-margin: 5rem;
+    /* scroll-margin: 5rem; */
     align-items: center;
     min-height: 1000px;
     justify-content: center;
     height: 100vh;
+    min-height: 1000px;
   }
   .top-section {
     display: flex;

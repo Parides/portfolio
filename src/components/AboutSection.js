@@ -7,7 +7,7 @@ import resumepdf from '../assets/static/AndreasParidisResume.pdf';
 const AboutPageStyles = styled.div`
   .container {
     padding: 30rem 0 30rem 0;
-    scroll-margin: 5rem;
+    /* scroll-margin: 5rem; */
     align-items: center;
     height: 100vh;
     min-height: 1000px;

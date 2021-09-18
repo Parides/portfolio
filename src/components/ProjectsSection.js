@@ -12,8 +12,8 @@ SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
   .container {
-    padding: 10rem 0 10rem 0;
-    scroll-margin: 6rem;
+    padding: 20rem 0 0 0;
+    /* scroll-margin: 6rem; */
     align-items: center;
     height: 100vh;
     min-height: 1000px;

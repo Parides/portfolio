@@ -1,9 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import FooterCol from './FooterCol';
-import PText from './PText';
-
-import instagram from '../assets/images/instagram.svg';
 import linkedin from '../assets/images/linkedin.svg';
 import github from '../assets/images/github.svg';
 import email from '../assets/images/email.svg';
