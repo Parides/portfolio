@@ -8,15 +8,27 @@ const AboutPageStyles = styled.div`
   .container {
     padding: 30rem 0 30rem 0;
     /* scroll-margin: 5rem; */
-    align-items: center;
     height: 100vh;
     min-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   }
   .top-section {
+    border-radius: 30px;
+    padding: 3rem 3rem 3rem 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+
+    :hover {
+      animation-name: zoom-in-out;
+      animation-duration: 0.8s;
+    }
   }
   .left {
     flex: 3;
@@ -98,8 +110,7 @@ const AboutPageStyles = styled.div`
   @media only screen and (max-width: 1024px) {
     .container {
       min-height: 750px;
-      padding: 5rem 0 5rem 0;
-      scroll-margin: -2rem;
+      padding: 5rem 0 10rem 0;
     }
     .top-section {
       flex-direction: column;

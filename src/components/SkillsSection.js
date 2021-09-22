@@ -5,12 +5,24 @@ import AboutInfoItem from './AboutInfoItem';
 const SkillSectionStyles = styled.div`
   .container {
     padding: 30rem 0 30rem 0;
-    /* scroll-margin: 5rem; */
     align-items: center;
-    min-height: 1000px;
     justify-content: center;
-    height: 100vh;
     min-height: 1000px;
+    /* display: flex; */
+    position: relative;
+  }
+
+  .myskills {
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 3rem 3rem 4rem 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    :hover {
+      animation-name: zoom-in-out;
+      animation-duration: 0.8s;
+    }
   }
   .top-section {
     display: flex;
@@ -78,15 +90,15 @@ const SkillSectionStyles = styled.div`
   @media only screen and (max-width: 1768px) {
     .container {
       min-height: 750px;
-      padding: 5rem 0 5rem 1rem;
-      scroll-margin: -2rem;
+      padding: 5rem 0 10rem 0;
     }
+
     .top-section {
       flex-direction: row;
       flex-wrap: wrap;
       align-self: flex-start;
       gap: 0rem;
-      max-height: 700px;
+      max-height: 600px;
       overflow-y: scroll;
     }
     .skills {
@@ -109,41 +121,43 @@ export default function About() {
     <>
       <SkillSectionStyles>
         <div className="container" id="skills">
-          <h2 className="about__heading">Skills</h2>
-          <div className="top-section">
-            <div className="right-skills">
-              <div className="skills">
-                <AboutInfoItem
-                  title="Programming"
-                  items={['C++', 'Java', 'Python', 'JS']}
-                />
-              </div>
+          <div className="myskills">
+            <h2 className="about__heading">Skills</h2>
+            <div className="top-section">
+              <div className="right-skills">
+                <div className="skills">
+                  <AboutInfoItem
+                    title="Programming"
+                    items={['C++', 'Java', 'Python', 'JS']}
+                  />
+                </div>
 
-              <div className="skills">
-                <AboutInfoItem
-                  title="FrontEnd"
-                  items={['React', 'CSS', 'HTML', 'Bootstrap']}
-                />
-              </div>
-              <div className="skills">
-                <AboutInfoItem title="Back End" items={['PHP']} />
-              </div>
+                <div className="skills">
+                  <AboutInfoItem
+                    title="FrontEnd"
+                    items={['React', 'CSS', 'HTML', 'Bootstrap']}
+                  />
+                </div>
+                <div className="skills">
+                  <AboutInfoItem title="Back End" items={['PHP']} />
+                </div>
 
-              <div className="skills">
-                <AboutInfoItem
-                  title="Framework"
-                  items={['Flask', 'Laravel', 'Symphony']}
-                />
+                <div className="skills">
+                  <AboutInfoItem
+                    title="Framework"
+                    items={['Flask', 'Laravel', 'Symphony']}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="right-skills">
-              <AboutInfoItem
-                title="Database"
-                items={['PostgreSQL', 'MariaDB', 'MySQL']}
-              />
-              <AboutInfoItem title="DevOps" items={['AWS', 'Bash']} />
-              <AboutInfoItem title="AI/ML" items={['Tensorflow', 'OpenCV']} />
-              <AboutInfoItem title="Other" items={['Unity', 'Android']} />
+              <div className="right-skills">
+                <AboutInfoItem
+                  title="Database"
+                  items={['PostgreSQL', 'MariaDB', 'MySQL']}
+                />
+                <AboutInfoItem title="DevOps" items={['AWS', 'Bash']} />
+                <AboutInfoItem title="AI/ML" items={['Tensorflow', 'OpenCV']} />
+                <AboutInfoItem title="Other" items={['Unity', 'Android']} />
+              </div>
             </div>
           </div>
         </div>

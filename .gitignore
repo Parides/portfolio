@@ -107,6 +107,8 @@ src/components/*
 !/src/components/SectionTitle.js
 !/src/components/SkillsSection.js
 !/src/components/ProjectsSection.js
+!/src/components/AboutInfoItem.js
+
 
 #pages
 src/pages/*

@@ -5,17 +5,19 @@ import github from '../assets/images/github.svg';
 import email from '../assets/images/email.svg';
 
 const HeroStyles = styled.div`
-  .hero {
-    height: 100vh;
-    min-height: 1000px;
-    width: 100%;
-    text-align: center;
-    display: flex;
+  .container {
     align-items: center;
     justify-content: center;
+    min-height: 1000px;
     position: relative;
+    display: flex;
   }
+
   .hero__heading {
+    border-radius: 30px;
+    padding: 3rem 3rem 3rem 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
     font-size: 2rem;
     color: var(--indigo-dye);
     margin-bottom: -4rem;
@@ -25,9 +27,10 @@ const HeroStyles = styled.div`
       display: inline-block;
       width: 100%;
     }
-    /* .hero__first__line {
-      color: var(--black);
-    } */
+    :hover {
+      animation-name: zoom-in-out;
+      animation-duration: 0.8s;
+    }
     .hero__name {
       font-family: 'Manrope Bold';
       font-size: 7rem;
@@ -140,6 +143,9 @@ const HeroStyles = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
+    .container {
+      padding: 20rem 0 0rem 0;
+    }
     .hero {
       min-height: 750px;
     }
@@ -201,8 +207,8 @@ const HeroStyles = styled.div`
 export default function HeroSection() {
   return (
     <HeroStyles>
-      <div className="hero" id="herosection">
-        <div className="container">
+      <div className="container">
+        <div className="hero" id="herosection">
           <h1 className="hero__heading">
             <span className="hero__first__line">Hello, I'm</span>
             <span className="hero__name">Andreas Paridis</span>

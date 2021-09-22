@@ -4,18 +4,25 @@ import styled from 'styled-components';
 const ExperienceStyles = styled.div`
   .container {
     padding: 30rem 0 30rem 0;
-    /* scroll-margin: -20rem; */
     align-items: center;
-    /* height: 100vh;
-    min-height: 1000px; */
     justify-content: center;
+    min-height: 1000px;
+    display: flex;
+    position: relative;
   }
 
   .top-section {
-    display: flex;
+    border-radius: 30px;
+    padding: 3rem 3rem 3rem 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     align-items: center;
     justify-content: center;
     gap: 2rem;
+
+    :hover {
+      animation-name: zoom-in-out;
+      animation-duration: 0.8s;
+    }
   }
   .left {
     flex: 3;
@@ -48,7 +55,7 @@ const ExperienceStyles = styled.div`
   }
   .about__info__items {
     margin-top: 5rem;
-    max-height: 500px;
+    max-height: 350px;
     overflow-y: scroll;
   }
 
@@ -89,7 +96,7 @@ const ExperienceStyles = styled.div`
     }
   }
   li::before {
-    list-style-image: '>';
+    /* list-style-image: '>'; */
     padding-inline-start: 1rem;
     content: ' ';
     background: var(--steel-blue);
@@ -111,8 +118,7 @@ const ExperienceStyles = styled.div`
   @media only screen and (max-width: 1768px) {
     .container {
       min-height: 750px;
-      padding: 10rem 0 5rem 0;
-      scroll-margin: -5rem;
+      padding: 5rem 0 10rem 0;
     }
     .top-section {
       flex-direction: column;
@@ -128,7 +134,7 @@ const ExperienceStyles = styled.div`
       font-size: 2.8rem;
     }
     .about__info__items {
-      max-height: 600px;
+      max-height: 540px;
     }
     li {
       font-size: 1.4rem;
@@ -154,67 +160,68 @@ export default function ExperienceSection() {
     <>
       <ExperienceStyles>
         <div className="container" id="experience">
-          <div className="top-section" />
-          <h1 className="about__info__heading">Experience</h1>
-          <div className="about__info__items">
-            <div className="about__info__item">
-              <h1 className="about__info__position">Junior Web Developer</h1>
-              <h1 className="about__info__heading__sub">
-                <a href="https://www.estate-searcher.com/" target="__blank">
-                  Estate-Searcher
-                </a>{' '}
-                | 2020
-              </h1>
-              <ul>
-                <li>
-                  Contributed towards accelerating the development of an online
-                  estate listing website.
-                </li>
-                <li>
-                  Administered the database system for over fifty thousand
-                  listings.
-                </li>
-                <li>
-                  Successfully migrated the database system over to a new
-                  Framework.
-                </li>
-                {/* <li>
+          <div className="top-section">
+            <h1 className="about__info__heading">Experience</h1>
+            <div className="about__info__items">
+              <div className="about__info__item">
+                <h1 className="about__info__position">Junior Web Developer</h1>
+                <h1 className="about__info__heading__sub">
+                  <a href="https://www.estate-searcher.com/" target="__blank">
+                    Estate-Searcher
+                  </a>{' '}
+                  | 2020
+                </h1>
+                <ul>
+                  <li>
+                    Contributed towards accelerating the development of an
+                    online estate listing website.
+                  </li>
+                  <li>
+                    Administered the database system for over fifty thousand
+                    listings.
+                  </li>
+                  <li>
+                    Successfully migrated the database system over to a new
+                    Framework.
+                  </li>
+                  {/* <li>
                   <span>PHP</span>
                   <span>PHP</span>
                   <span>PHP</span>
                   <span>PHP</span>
                   <span>PHP</span>
                 </li> */}
-              </ul>
-            </div>
-            <div className="about__info__item">
-              <h1 className="about__info__position">
-                Junior Software Engineer
-              </h1>
-              <h1 className="about__info__heading__sub">
-                <a href="https://www.soft-surge.com/" target="__blank">
-                  Soft-Surge
-                </a>{' '}
-                | 2020
-              </h1>
-              <ul>
-                <li>
-                  Collaborated with the Senior Engineer to overhaul and
-                  re-engineer a data aggregation engine for online estate
-                  listings.
-                </li>
-                <li>
-                  Integrated essential functionality of the existing engine to
-                  the re-designed.
-                </li>
-                <li>
-                  Implemented the design and developed the aggregation engine.
-                </li>
-                <li>
-                  Executed tests and recommended improvements, to ensure
-                  functionality and optimization.
-                </li>
-              </ul>
+                </ul>
+              </div>
+              <div className="about__info__item">
+                <h1 className="about__info__position">
+                  Junior Software Engineer
+                </h1>
+                <h1 className="about__info__heading__sub">
+                  <a href="https://www.soft-surge.com/" target="__blank">
+                    Soft-Surge
+                  </a>{' '}
+                  | 2020
+                </h1>
+                <ul>
+                  <li>
+                    Collaborated with the Senior Engineer to overhaul and
+                    re-engineer a data aggregation engine for online estate
+                    listings.
+                  </li>
+                  <li>
+                    Integrated essential functionality of the existing engine to
+                    the re-designed.
+                  </li>
+                  <li>
+                    Implemented the design and developed the aggregation engine.
+                  </li>
+                  <li>
+                    Executed tests and recommended improvements, to ensure
+                    functionality and optimization.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

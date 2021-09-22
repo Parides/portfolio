@@ -38,8 +38,8 @@ const NavStyles = styled.nav`
     }
     .logo {
       float: left;
-      align-items: center;
-      justify-content: center;
+      align-items: left;
+      justify-content: left;
       img {
         width: 75px;
       }
@@ -78,7 +78,7 @@ const NavStyles = styled.nav`
     display: none;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 821px) {
     opacity: 100%;
     padding: 0;
     z-index: 100;
@@ -127,6 +127,11 @@ const NavStyles = styled.nav`
       button {
         border: 2px solid var(--white);
       }
+      .logo {
+        float: none;
+        margin-right: -1rem;
+        margin-bottom: 35vh;
+      }
     }
   }
 `;
@@ -155,10 +160,11 @@ export default function NavMenu() {
         >
           <MdClose />
         </div>
-        <a className="logo" onKeyDown={() => setShowNav(!showNav)} href=".">
-          <img src={logo} alt="me" width="50px" />
-        </a>
-
+        <li className="logo">
+          <a onKeyDown={() => setShowNav(!showNav)} href=".">
+            <img src={logo} alt="me" width="50px" />
+          </a>
+        </li>
         <li>
           <a href="#about" onClick={() => setShowNav(!showNav)}>
             About

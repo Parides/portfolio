@@ -29,6 +29,7 @@ const GlobalStyles = createGlobalStyle`
     --gray-2: #363636;
     --white : #F3F8F2;
     --black: black;
+    
   }
   html{
     font-size: 10px;
@@ -71,6 +72,19 @@ const GlobalStyles = createGlobalStyle`
     background: var(--indigo-dye);
     border-radius: 10px;
   }
+
+  @keyframes zoom-in-out {
+      0% {
+        scale: 1;
+      }
+      50% {
+        scale: 1.01;
+      }
+      100% {
+        scale: 1;
+      }
+    }
+    
 /* Smooth Scroll  */
   [data-scrollbar] {
     height: 100vh;

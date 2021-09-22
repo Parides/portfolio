@@ -3,19 +3,20 @@ import styled from 'styled-components';
 import ProjectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
+  padding: 1rem;
   transition: 0.5s opacity;
   &:hover {
     opacity: 50%;
   }
   .projectItem__img {
     width: 100%;
-    height: 400px;
     border-radius: 12px;
     overflow: hidden;
     display: inline-block;
     border: 3px solid var(--steel-blue);
     img {
       height: 100%;
+      height: 250px;
     }
   }
   .projectItem__info {
@@ -36,7 +37,7 @@ const ProjectItemStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
-      height: 350px;
+      height: 250px;
     }
   }
 `;

@@ -12,11 +12,24 @@ SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
   .container {
-    padding: 20rem 0 0 0;
-    /* scroll-margin: 6rem; */
+    padding: 15rem 0 30rem 0;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
     min-height: 1000px;
+    /* display: flex; */
+    position: relative;
+  }
+
+  .myprojects {
+    border-radius: 30px;
+    padding: 3rem 3rem 3rem 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    align-items: center;
+
+    :hover {
+      animation-name: zoom-in-out;
+      animation-duration: 0.8s;
+    }
   }
   .projects__allItems {
     display: flex;
@@ -52,13 +65,12 @@ const ProjectSectionStyle = styled.div`
     .container {
       min-height: 750px;
       padding: 5rem 0 5rem 0;
-      scroll-margin: -1rem;
     }
     .projects__allItems {
       flex-direction: column;
       max-width: 400px;
       margin: 0 auto;
-      margin-top: 7rem;
+      margin-top: 2rem;
       gap: 5rem;
       .projectItem__img {
         width: 100%;
@@ -72,42 +84,47 @@ export default function ProjectsSection() {
   return (
     <ProjectSectionStyle>
       <div className="container" id="projects">
-        <SectionTitle subheading="Some of my most notable" heading="Projects" />
-        <div className="projects__allItems">
-          <Swiper
-            spaceBetween={30}
-            slidesPerView={1}
-            navigation
-            // centeredItems={1}
-            breakpoints={{
-              // when window width is >= 640px
-              640: {
-                slidesPerView: 1,
-              },
-              // when window width is >= 768px
-              768: {
-                slidesPerView: 2,
-              },
-              // when window width is >= 1200px
-              1200: {
-                slidesPerView: 3,
-              },
-            }}
-          >
-            {projects.map((project, index) => {
-              if (index >= 5) return;
-              return (
-                <SwiperSlide key={project.id}>
-                  <ProjectItem
-                    linksto={project.href}
-                    title={project.name}
-                    img={project.img}
-                    desc={project.desc}
-                  />
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
+        <div className="myprojects">
+          <SectionTitle
+            subheading="Some of my most notable"
+            heading="Projects"
+          />
+          <div className="projects__allItems">
+            <Swiper
+              spaceBetween={30}
+              slidesPerView={1}
+              navigation
+              // centeredItems={1}
+              breakpoints={{
+                // when window width is >= 640px
+                640: {
+                  slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                768: {
+                  slidesPerView: 2,
+                },
+                // when window width is >= 1200px
+                1200: {
+                  slidesPerView: 3,
+                },
+              }}
+            >
+              {projects.map((project, index) => {
+                if (index >= 5) return;
+                return (
+                  <SwiperSlide key={project.id}>
+                    <ProjectItem
+                      linksto={project.href}
+                      title={project.name}
+                      img={project.img}
+                      desc={project.desc}
+                    />
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </div>
         </div>
       </div>
     </ProjectSectionStyle>
