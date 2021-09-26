@@ -6,10 +6,10 @@ import email from '../assets/images/email.svg';
 
 const HeroStyles = styled.div`
   .container {
+    display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 1000px;
-    display: flex;
+    min-height: 100vh;
   }
 
   .hero__heading {
@@ -57,8 +57,9 @@ const HeroStyles = styled.div`
   .hero__scrollDown {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 30px;
     position: fixed;
+    justify-content: center;
 
     bottom: 20px;
     width: 50px;
@@ -97,7 +98,8 @@ const HeroStyles = styled.div`
           margin-bottom: 1rem;
         }
         img {
-          scale: 50%;
+          width: 24px;
+          height: 24px;
           transition: 0.5s ease opacity;
           :hover {
             opacity: 20%;
@@ -108,6 +110,8 @@ const HeroStyles = styled.div`
   }
 
   .hero__social__text {
+    display: flex;
+    justify-content: center;
     ul {
       li {
         margin-bottom: 1rem;
@@ -118,7 +122,8 @@ const HeroStyles = styled.div`
           margin-bottom: 1rem;
         }
         img {
-          scale: 50%;
+          width: 24px;
+          height: 24px;
           transition: 0.5s ease opacity;
           :hover {
             opacity: 20%;
@@ -143,10 +148,11 @@ const HeroStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .container {
-      padding: 20rem 0 0rem 0;
+      /* padding: 20rem 0 0rem 0; */
+      min-height: 100vh;
     }
     .hero {
-      min-height: 750px;
+      /* min-height: 750px; */
     }
     .hero__heading {
       font-size: 1.4rem;
@@ -259,7 +265,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={github} alt="icon" />
+                    <img src={github} alt="github icon" />
                   </a>
                 </li>
                 <li>
@@ -278,17 +284,19 @@ export default function HeroSection() {
             <div className="hero__scrollDown__indicator">
               <p>Contact</p>
             </div>
-            <ul>
-              <li>
-                <a
-                  href="mailto:andreasparides@hotmail.com"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <img src={email} alt="ScrollDown Arrow" />
-                </a>
-              </li>
-            </ul>
+            <div className="hero__social__text">
+              <ul>
+                <li>
+                  <a
+                    href="mailto:andreasparides@hotmail.com"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img src={email} alt="ScrollDown Arrow" />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

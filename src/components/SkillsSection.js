@@ -4,14 +4,16 @@ import AboutInfoItem from './AboutInfoItem';
 
 const SkillSectionStyles = styled.div`
   .container {
-    padding: 30rem 0 30rem 0;
+    /* padding: 30rem 0 30rem 0; */
+    display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 1000px;
+    min-height: 100vh;
   }
 
   .myskills {
     align-items: center;
+    width: 100%;
     justify-content: center;
     border-radius: 30px;
     padding: 3rem 3rem 4rem 3rem;
@@ -97,8 +99,9 @@ const SkillSectionStyles = styled.div`
   }
   @media only screen and (max-width: 1768px) {
     .container {
-      min-height: 750px;
-      padding: 5rem 0 10rem 0;
+      /* min-height: 750px; */
+      /* padding: 5rem 0 10rem 0; */
+      margin-bottom: 10vh;
     }
 
     .top-section {
@@ -106,7 +109,7 @@ const SkillSectionStyles = styled.div`
       flex-wrap: wrap;
       align-self: flex-start;
       gap: 0rem;
-      max-height: 600px;
+      max-height: 80vh;
       overflow-y: scroll;
     }
     .skills {

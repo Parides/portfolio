@@ -15,8 +15,8 @@ const ProjectItemStyles = styled.div`
     display: inline-block;
     border: 3px solid var(--steel-blue);
     img {
-      height: 100%;
-      height: 250px;
+      height: auto;
+      height: 200px;
     }
   }
   .projectItem__info {

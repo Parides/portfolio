@@ -90,12 +90,13 @@ const NavStyles = styled.nav`
       /* width: 90%; */
       margin-right: 0%;
       margin-left: 0%;
+      /* left: 100%; */
     }
     .hide-item {
-      transform: translateX(calc(-100% - var(--top)));
+      transform: translateX(calc(100% - var(--top)));
       /* transform: translateY(calc(-100% - var(--top))); */
       /* transform: translateX(calc(-120% +20rem)); */
-      transform: translateY(calc(220% - var(--top)));
+      /* transform: translateY(calc(220% - var(--top))); */
     }
     .mobile-menu-icon {
       display: block;
@@ -104,11 +105,11 @@ const NavStyles = styled.nav`
     .navItems {
       --top: 1rem;
       transition: 0.6s ease transform;
-      /* background-color: var(--steel-blue); */
-      background: linear-gradient(-180deg, var(--jet), var(--steel-blue));
+      background-color: var(--jet);
+      /* background: linear-gradient(-180deg, var(--jet), var(--steel-blue)); */
       padding: 2rem;
       width: 100%;
-      height: 2000px;
+      height: 100vh;
       /* border-bottom-left-radius: 18px;
       border-bottom-right-radius: 18px;
       max-width: 300px;
@@ -130,12 +131,11 @@ const NavStyles = styled.nav`
         margin-bottom: 1rem;
       }
       button {
-        border: 2px solid var(--white);
+        border: 2px solid var(--steel-blue);
       }
       .logo {
         float: none;
         margin-right: -1rem;
-        margin-bottom: 35vh;
       }
     }
   }

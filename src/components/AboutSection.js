@@ -6,10 +6,10 @@ import resumepdf from '../assets/static/AndreasParidisResume.pdf';
 
 const AboutPageStyles = styled.div`
   .container {
-    padding: 30rem 0 30rem 0;
+    /* padding: 30rem 0 30rem 0; */
     /* scroll-margin: 5rem; */
     /* height: 100vh; */
-    min-height: 1000px;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,8 +109,9 @@ const AboutPageStyles = styled.div`
   }
   @media only screen and (max-width: 1024px) {
     .container {
-      min-height: 750px;
-      padding: 3rem 0 10rem 0;
+      min-height: 100vh;
+      /* padding: 3rem 0 10rem 0; */
+      margin-bottom: 10vh;
     }
     .top-section {
       flex-direction: column;

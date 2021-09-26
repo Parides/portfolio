@@ -12,16 +12,18 @@ SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
   .container {
-    padding: 15rem 0 30rem 0;
+    /* padding: 15rem 0 30rem 0; */
+    display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 1000px;
+    min-height: 100vh;
     /* display: flex; */
     position: relative;
   }
 
   .myprojects {
     border-radius: 30px;
+    width: 100%;
     padding: 3rem 3rem 3rem 3rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     align-items: center;
@@ -61,10 +63,17 @@ const ProjectSectionStyle = styled.div`
   .swiper-button-next::after {
     font-size: 2rem;
   }
+
+  .myprojects__title {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: var(--steel-blue);
+    text-align: center;
+  }
   @media only screen and (max-width: 768px) {
     .container {
-      min-height: 750px;
-      padding: 5rem 0 5rem 0;
+      /* min-height: 750px;
+      padding: 5rem 0 5rem 0; */
     }
     .projects__allItems {
       flex-direction: column;
@@ -76,6 +85,10 @@ const ProjectSectionStyle = styled.div`
         width: 100%;
       }
     }
+
+    .myprojects__title {
+      font-size: 2.8rem;
+    }
   }
 `;
 
@@ -85,10 +98,11 @@ export default function ProjectsSection() {
     <ProjectSectionStyle>
       <div className="container" id="projects">
         <div className="myprojects">
-          <SectionTitle
+          <h1 className="myprojects__title">Projects</h1>
+          {/* <SectionTitle
             subheading="Some of my most notable"
             heading="Projects"
-          />
+          /> */}
           <div className="projects__allItems">
             <Swiper
               spaceBetween={30}
