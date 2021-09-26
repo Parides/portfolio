@@ -9,7 +9,6 @@ const HeroStyles = styled.div`
     align-items: center;
     justify-content: center;
     min-height: 1000px;
-    position: relative;
     display: flex;
   }
 

@@ -11,9 +11,12 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--jet);
+  background: transparent;
+  /* background: linear-gradient(-90deg, var(--jet), var(--steel-blue)); */
   opacity: 90%;
   // border-bottom: 2px solid var(--aquamarine)
+  backdrop-filter: blur(3px);
+
   ul {
     margin: 0 auto;
     /* width: 90%; */
@@ -96,11 +99,13 @@ const NavStyles = styled.nav`
     }
     .mobile-menu-icon {
       display: block;
+      backdrop-filter: blur(20px);
     }
     .navItems {
       --top: 1rem;
       transition: 0.6s ease transform;
-      background-color: var(--steel-blue);
+      /* background-color: var(--steel-blue); */
+      background: linear-gradient(-180deg, var(--jet), var(--steel-blue));
       padding: 2rem;
       width: 100%;
       height: 2000px;

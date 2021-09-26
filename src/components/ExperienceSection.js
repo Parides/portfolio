@@ -7,8 +7,6 @@ const ExperienceStyles = styled.div`
     align-items: center;
     justify-content: center;
     min-height: 1000px;
-    display: flex;
-    position: relative;
   }
 
   .top-section {

@@ -33,14 +33,22 @@ const AboutItemStyles = styled.div`
     align-items: flex-start;
     margin-top: 2rem;
     gap: 1rem;
+    .item {
+      flex-wrap: wrap;
+    }
     .items {
       position: initial;
       gap: 1rem;
       width: 200px;
-      flex-wrap: wrap;
     }
     .title {
       font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .items {
+      flex-wrap: wrap;
     }
   }
 `;

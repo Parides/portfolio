@@ -8,8 +8,6 @@ const SkillSectionStyles = styled.div`
     align-items: center;
     justify-content: center;
     min-height: 1000px;
-    /* display: flex; */
-    position: relative;
   }
 
   .myskills {
@@ -29,6 +27,10 @@ const SkillSectionStyles = styled.div`
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    /* display: flex; */
+    flex-wrap: wrap;
+
+    align-items: flex-start;
   }
   .left {
     flex: 3;
@@ -75,10 +77,16 @@ const SkillSectionStyles = styled.div`
   }
 
   .right-skills {
+    display: flex;
     flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .left-skills {
+    display: flex;
     flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .skills {
     float: left;
@@ -149,14 +157,26 @@ export default function About() {
                   />
                 </div>
               </div>
-              <div className="right-skills">
-                <AboutInfoItem
-                  title="Database"
-                  items={['PostgreSQL', 'MariaDB', 'MySQL']}
-                />
-                <AboutInfoItem title="DevOps" items={['AWS', 'Bash']} />
-                <AboutInfoItem title="AI/ML" items={['Tensorflow', 'OpenCV']} />
-                <AboutInfoItem title="Other" items={['Unity', 'Android']} />
+              <div className="left-skills">
+                <div className="skills">
+                  <AboutInfoItem
+                    title="Database"
+                    items={['PostgreSQL', 'MariaDB', 'MySQL']}
+                  />
+                </div>
+
+                <div className="skills">
+                  <AboutInfoItem title="DevOps" items={['AWS', 'Bash']} />
+                </div>
+                <div className="skills">
+                  <AboutInfoItem
+                    title="AI/ML"
+                    items={['Tensorflow', 'OpenCV']}
+                  />
+                </div>
+                <div className="skills">
+                  <AboutInfoItem title="Other" items={['Unity', 'Android']} />
+                </div>
               </div>
             </div>
           </div>

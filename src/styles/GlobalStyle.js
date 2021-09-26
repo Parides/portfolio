@@ -34,7 +34,12 @@ const GlobalStyles = createGlobalStyle`
   html{
     font-size: 10px;
     font-family: 'Manrope Regular';
-    background-color: var(--jet);
+    /* background: linear-gradient(180deg, var(--jet), var(--steel-blue)); */
+    background: var(--jet);
+    /* background: rgb(41,49,50);
+    background: linear-gradient(180deg, rgba(41,49,50,1) 0%, rgba(44,63,83,1) 38%, rgba(46,74,111,1) 73%, rgba(47,81,127,1) 100%); */
+    /* background: rgb(41,49,50); */
+    /* background: linear-gradient(180deg, rgba(41,49,50,1) 0%, rgba(44,63,83,1) 50%, rgba(46,74,111,1) 100%, rgba(47,81,127,1) 100%); */
     scroll-behavior: smooth;
   }
   ul,li{
@@ -61,11 +66,13 @@ const GlobalStyles = createGlobalStyle`
     width: 10px;
   }
 
-  /* Track
+  /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    /* box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  } */
+    background: linear-gradient(180deg, rgba(41,49,50,1) 0%, rgba(44,63,83,1) 50%, rgba(46,74,111,1) 100%, rgba(47,81,127,1) 100%); */
+    display:none;
+  }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
