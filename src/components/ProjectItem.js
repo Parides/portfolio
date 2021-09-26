@@ -15,8 +15,7 @@ const ProjectItemStyles = styled.div`
     display: inline-block;
     border: 3px solid var(--steel-blue);
     img {
-      height: auto;
-      height: 200px;
+      height: 250px;
     }
   }
   .projectItem__info {
@@ -37,11 +36,7 @@ const ProjectItemStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
-      height: 125px;
-      img {
-        height: auto;
-        height: 125px;
-      }
+      height: 250px;
     }
   }
 `;
