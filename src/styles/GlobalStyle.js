@@ -114,11 +114,5 @@ const GlobalStyles = createGlobalStyle`
       margin: 0 auto;
     }
   }
-
-  /* @media (-webkit-min-device-pixel-ratio: 1.25) {
-    * {
-    zoom: 98%;
-  } */
-}
 `;
 export default GlobalStyles;
