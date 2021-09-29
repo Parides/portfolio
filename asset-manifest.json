@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.68bf3090.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.68bf3090.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.cefafbce.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cefafbce.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.763eb2d9.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.763eb2d9.js.map",
     "static/css/2.b1b9bc85.chunk.css": "/portfolio/static/css/2.b1b9bc85.chunk.css",
@@ -32,7 +32,8 @@
     "static/media/github.05f37c28.svg": "/portfolio/static/media/github.05f37c28.svg",
     "static/media/greenctg.e51b3bbd.jpg": "/portfolio/static/media/greenctg.e51b3bbd.jpg",
     "static/media/linkedin.5af5aedf.svg": "/portfolio/static/media/linkedin.5af5aedf.svg",
-    "static/media/logo.66e2bc9e.png": "/portfolio/static/media/logo.66e2bc9e.png",
+    "static/media/logo-blue.b02e8fb3.png": "/portfolio/static/media/logo-blue.b02e8fb3.png",
+    "static/media/logo.dab70287.png": "/portfolio/static/media/logo.dab70287.png",
     "static/media/mazegame.daf0478d.png": "/portfolio/static/media/mazegame.daf0478d.png",
     "static/media/projectImg.771236e1.png": "/portfolio/static/media/projectImg.771236e1.png",
     "static/media/utracker.be1fe64a.jpg": "/portfolio/static/media/utracker.be1fe64a.jpg",
@@ -42,6 +43,6 @@
     "static/js/runtime-main.763eb2d9.js",
     "static/css/2.b1b9bc85.chunk.css",
     "static/js/2.e3704abf.chunk.js",
-    "static/js/main.68bf3090.chunk.js"
+    "static/js/main.cefafbce.chunk.js"
   ]
 }
