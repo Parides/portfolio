@@ -82,14 +82,14 @@ const GlobalStyles = createGlobalStyle`
 
   @keyframes zoom-in-out {
       0% {
-        scale: 1;
+        
+
       }
       50% {
-        scale: 1.01;
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px rgba(255, 255, 255, 0.23);
       }
       100% {
-        scale: 1;
-      }
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);      }
     }
     
 /* Smooth Scroll  */

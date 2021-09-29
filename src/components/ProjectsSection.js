@@ -75,6 +75,11 @@ const ProjectSectionStyle = styled.div`
       /* min-height: 750px;
       padding: 5rem 0 5rem 0; */
     }
+
+    .myprojects {
+      max-height: 85vh;
+      overflow-y: scroll;
+    }
     .projects__allItems {
       flex-direction: column;
       max-width: 400px;

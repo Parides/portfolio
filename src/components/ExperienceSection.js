@@ -55,7 +55,7 @@ const ExperienceStyles = styled.div`
   }
   .about__info__items {
     margin-top: 5rem;
-    max-height: 40vh;
+    max-height: 50vh;
     overflow-y: scroll;
   }
 
@@ -135,7 +135,7 @@ const ExperienceStyles = styled.div`
       font-size: 2.8rem;
     }
     .about__info__items {
-      max-height: 70vh;
+      max-height: 60vh;
     }
     li {
       font-size: 1.4rem;

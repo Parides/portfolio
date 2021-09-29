@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { MdClose, MdMenu } from 'react-icons/md';
 import resumepdf from '../assets/static/AndreasParidisResume.pdf';
 import logo from '../assets/images/logo.png';
+import logoBlue from '../assets/images/logo-blue.png';
 
 const NavStyles = styled.nav`
   position: fixed;
@@ -16,6 +17,7 @@ const NavStyles = styled.nav`
   opacity: 90%;
   // border-bottom: 2px solid var(--aquamarine)
   backdrop-filter: blur(3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
   ul {
     margin: 0 auto;
@@ -167,7 +169,7 @@ export default function NavMenu() {
         </div>
         <li className="logo">
           <a onKeyDown={() => setShowNav(!showNav)} href=".">
-            <img src={logo} alt="me" width="50px" />
+            <img src={logoBlue} alt="me" width="50px" />
           </a>
         </li>
         <li>

@@ -15,20 +15,21 @@ const AboutPageStyles = styled.div`
     justify-content: center;
     position: relative;
   }
-  .top-section {
+
+  .about__me {
     border-radius: 30px;
     padding: 3rem 3rem 3rem 3rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-
     :hover {
       animation-name: zoom-in-out;
       animation-duration: 0.8s;
     }
+  }
+  .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
   }
   .left {
     flex: 3;
@@ -109,17 +110,24 @@ const AboutPageStyles = styled.div`
   }
   @media only screen and (max-width: 1024px) {
     .container {
-      min-height: 100vh;
+      max-height: 100vh;
       /* padding: 3rem 0 10rem 0; */
       margin-bottom: 10vh;
     }
+
+    .about__me {
+      max-height: 70vh;
+      overflow-y: scroll;
+    }
     .top-section {
       flex-direction: column;
-      gap: 5rem;
+      gap: 2rem;
+      /* max-height: 70vh; */
     }
     .right {
       img {
-        width: 90%;
+        width: 60%;
+        height: auto;
       }
     }
     .right-skills {
@@ -147,34 +155,33 @@ export default function About() {
     <>
       <AboutPageStyles>
         <div className="container" id="about">
-          <div className="top-section">
-            <div className="left">
-              <p className="about__subheading">
-                {/* Hi, I am <span>Ayan Khan</span> */}
-              </p>
-              <h2 className="about__heading">About me</h2>
-              <div className="about__info">
-                <PText>
-                  My name is Andreas Paridis, and I love using coding to bring
-                  ideas to life. As a teenager I was obsessed with games, and
-                  was always fascinated with how any abstract idea can turn into
-                  reality just by using lines of code. In 2018 I set out to find
-                  how the ins and outs of how this process works by Undertaking
-                  a Bacherlor of Science in Computer Science at the University
-                  Of Reading.
-                  <br />
-                  <br />
-                  Fast Forward to today, I am an ambitious Computer Sience
-                  graduate, interested in expanding my software development, web
-                  development and sofware engineering skills.
-                </PText>
-                <a href={resumepdf} target="__blank">
-                  <button type="button">Resume</button>
-                </a>
+          <div className="about__me">
+            <div className="top-section">
+              <div className="left">
+                <h2 className="about__heading">About me</h2>
+                <div className="about__info">
+                  <PText>
+                    My name is Andreas Paridis, and I love using coding to bring
+                    ideas to life. As a teenager I was obsessed with games, and
+                    was always fascinated with how any abstract idea can turn
+                    into reality just by using lines of code. In 2018 I set out
+                    to find how the ins and outs of how this process works by
+                    Undertaking a Bacherlor of Science in Computer Science at
+                    the University Of Reading.
+                    <br />
+                    <br />
+                    Fast Forward to today, I am an ambitious Computer Sience
+                    graduate, interested in expanding my software development,
+                    web development and sofware engineering skills.
+                  </PText>
+                  <a href={resumepdf} target="__blank">
+                    <button type="button">Resume</button>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div className="right">
-              <img src={AboutImg} alt="me" />
+              <div className="right">
+                <img src={AboutImg} alt="me" />
+              </div>
             </div>
           </div>
         </div>
